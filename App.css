@@ -1,0 +1,160 @@
+body {
+    background-color: #222;
+    color:white;
+    font-family: VT323;
+    font-size:24px;
+}
+.App {
+    text-align:center;
+}
+
+.pointer-link {
+    color:white;
+    text-decoration:none;;
+    font-size:25px;
+}
+
+.pointer-link h4:not(.no-profile) {
+    background-color: rgb(65, 76, 190);
+}
+
+.pointer-wrapper {
+    background-color:rgb(54, 65, 130);
+    width:300px;
+    height:300px;
+    display:inline-table;
+    text-align:center;
+    line-height:150px;
+    border: 5px solid #222;
+    transition: 0.5s linear;
+}
+
+.pointer-wrapper:hover {
+    background-color: rgb(59, 0, 102);
+    
+}
+
+.wall-wrapper {
+    max-width:90%;
+    margin: 0 auto;
+    background-color:#333;
+    margin-top:30px;
+    padding:15px;
+}
+
+.wall-wrapper ul {
+    list-style-type:none;
+}
+
+nav {
+    display:flex;
+    align-items:center;
+    width:90%;
+    justify-content: space-around;
+    min-height: 10vh;
+    background-color: rgb(42, 70, 85);
+    margin: 0 auto;
+}
+
+.nav-links {
+    width:50%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    list-style-type: none;
+}
+.nav-item {
+    color:white;
+    text-decoration:none;
+    font-size:40px;
+    border-bottom:5px solid #222;
+    transition: 0.4s linear;
+}
+
+.nav-item:hover {
+    border-bottom:15px solid #222;
+}
+
+.no-profile {
+    background-color:rgb(140, 20, 20);
+}
+
+.inspectWrapper {
+    background-color: rgb(50, 70, 120);
+    width:80%;
+    height:300px;
+    margin: 0 auto;
+    justify-content:space-around;
+}
+
+.inspectWrapper h1 {
+    
+    letter-spacing: 10px;
+    line-height:80px;
+    background: repeating-linear-gradient(
+        45deg, #606dbc, #606dbc 10px, #465298 10px ,#465298 20px
+    );
+}
+.no-result {
+    color: white;
+}
+.nav-logo {
+    font-size:25px;
+    color: #222;
+    font-family: "Homemade Apple";
+    color: white;
+}
+
+.new-button {
+    background:rgb(0, 70, 31);
+    color:white;
+    border:none;
+    font-size:20px;
+    padding:10px;
+    text-decoration:none;
+}
+
+.add-new-profile-wrapper {
+    background-color: rgb(30, 40, 50);
+    width:90%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    margin-top:30px;
+}
+
+.add-new-profile-wrapper input[type="text"] {
+    background:none;
+    color:white;
+    display:block;
+    border:none;
+    text-align:center;
+    margin: 0 auto;
+    padding:25px;
+    margin-bottom:25px;
+    border-bottom: 3px solid #111;
+    font-size:24px;
+    transition: 0.4s linear;
+    width:150px;
+}
+
+.add-new-profile-wrapper input[type="text"]:hover {
+    width:300px;
+}
+
+.add-new-profile-wrapper form {
+    background-color: #333;
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+    width:400px;
+    height:400px;
+}
+
+.add-new-profile-wrapper input[type="submit"] {
+    background: none;
+    width:150px;
+    height:100px;
+    border:none;
+    color:white;
+    font-size:25px;
+}
